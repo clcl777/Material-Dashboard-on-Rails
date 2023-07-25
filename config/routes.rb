@@ -6,12 +6,12 @@ Rails.application.routes.draw do
   get 'pages/notifications'
   get 'pages/profile'
   get 'pages/rtl'
-  get 'pages/sign-in'
-  get 'pages/sign-up'
+  get 'pages/sign_in'
+  get 'pages/sign_up'
   get 'pages/tables'
   get 'pages/template'
   get 'pages/typography'
-  get 'pages/virtual-reality'
+  get 'pages/virtual_reality'
   
-  root 'dashboard#index'
+  root 'pages#dashboard'
 end
