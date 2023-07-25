@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get 'pages/tables'
   get 'pages/template'
   get 'pages/typography'
-  get 'pages/virtual_reality'
+  get 'pages/virtual-reality', to: 'pages#virtual_reality'
   
   root 'pages#dashboard'
 end
