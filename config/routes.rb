@@ -1,6 +1,17 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  get 'pages/billing'
+  get 'pages/dashboard'
+  get 'pages/icons'
+  get 'pages/map'
+  get 'pages/notifications'
+  get 'pages/profile'
+  get 'pages/rtl'
+  get 'pages/sign-in'
+  get 'pages/sign-up'
+  get 'pages/tables'
+  get 'pages/template'
+  get 'pages/typography'
+  get 'pages/virtual-reality'
+  
+  root 'dashboard#index'
 end
